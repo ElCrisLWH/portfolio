@@ -1,0 +1,14 @@
+{
+    "dependencies": {
+        "firebase": "^9.6.3"
+    },
+    "name": "portfolio",
+    "version": "1.0.0",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "cristianpalma",
+    "license": "ISC",
+    "description": "Cristian Palma's web portfolio to show some of his different experiences and skills."
+}

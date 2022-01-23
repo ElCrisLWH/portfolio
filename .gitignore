@@ -1,0 +1,11 @@
+# Firebase cache
+.firebase/
+
+# Dependency directories
+node_modules/
+
+# Logs
+*.log
+
+# Web Manifest
+*.webmanifest
