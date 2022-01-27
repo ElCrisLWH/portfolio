@@ -185,8 +185,8 @@ nav:hover .nav-logo svg {
     flex-direction: row;
 }
 
-.contact svg {
-    width: 2rem;
+.icon-link svg {
+    width: 3rem;
     min-width: 2rem;
     margin: 0 1rem;
     color: var(--icon-primary);
