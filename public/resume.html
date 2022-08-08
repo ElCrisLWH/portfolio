@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<title>Cristian Palma</title>
+</head>
+
+<body>
+	<div id="nav-placeholder"></div>
+	<script src="//code.jquery.com/jquery.min.js"></script>
+	<script> $.get("nav.html", function (data) { $("#nav-placeholder").replaceWith(data) }) </script>
+
+	<main>
+		<h1>My Resume</h1>
+		<p>
+			Please select the resume version according to the desired position and language.
+		</p>
+		<button type="resume-selector"
+			onclick="getElementById('resume-preview').src = './resumes/software_en.pdf'">Software
+			Engineering (English Version)
+		</button>
+		<button type="resume-selector"
+			onclick="getElementById('resume-preview').src = 'resumes/math_en.pdf'">Mathematical
+			Engineering (English Version)
+		</button>
+		<button type="resume-selector"
+			onclick="getElementById('resume-preview').src = 'resumes/software_es.pdf'">Software
+			Engineering (Spanish Version)
+		</button>
+		<button type="resume-selector"
+			onclick="getElementById('resume-preview').src = 'resumes/math_es.pdf'">Mathematical
+			Engineering (Spanish Version)
+		</button>
+		<embed id="resume-preview" width="850px" height="1130px" />
+	</main>
+</body>
+
+</html>
